@@ -11,6 +11,17 @@
             height: 300px;
             object-fit: cover;
         }
+        .image-caption {
+            text-align: center;
+            font-style: italic;
+            margin-top: 5px;
+        }
+        section {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
@@ -23,8 +34,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#description">Description</a></li>
+                    
+                    
                     <li class="nav-item"><a class="nav-link" href="#repository">Repository</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#images">Images</a></li>
+                    
+
+                    <li class="nav-item"><a class="nav-link" href="#reference">References</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#cite">Cite</a></li>
                 </ul>
             </div>
         </div>
@@ -35,33 +51,85 @@
         
         <section id="description" class="mt-4">
             <h2>Description</h2>
-            <p>This ontology describes and models solid end milling tools, with the aim of creating interoperability across different vendors.</p>
-        </section>
+            <p>This ontology describes and models solid end milling tools, with the aim of creating interoperability across different vendors. Our ontology models the solid end mills, linking geometry, cutting parameters and milling tasks.</p>
+            <p> This ontology allows mapping different cutting tool manufacturers information for solid end mills, enabling interoperability. An application as cutting tool recommendation engine is being developed. </p>
+            <div class="col-md-6 mb-3">
+                <img src="images/Screenshot 2025-03-13 at 16.58.17.png" class="img-fluid rounded" alt="Description of the Material Classes for chip removal processes">
+                <p class="image-caption">Fig. 1: Visual ontology summary</p>
+            </div>
+            <p> Our ontology reuses InVor ontology, componency from ODP and foaf vacbulary (see References). </p>
+             
+            <div class="col-md-6 mb-3">
+                <img src="images/Screenshot 2025-03-13 at 16.33.26.png" class="img-fluid rounded" alt="Description of the Material Classes for chip removal processes">
+                <p class="image-caption">Fig. 2: Imported ontologies in KG4CUT</p>
+            </div>
+
         
         
-        <section id="images" class="mt-4">
-            <h2>Images</h2>
+        
+            <h3>Major Classes</h3>
+            <p> Some of the major classes defined in the ontology are Milling Task and ISO Materials. Milling Tasks define all the major and more known and use milling operations and links some of them to specific geometries. ISO materials is necessary as a particular way to define the agree taxonomy of materials in chip removal processes.</p>
             <div class="row image-container">
                 <div class="col-md-6 mb-3">
                     <img src="images/Screenshot 2025-02-28 at 18.30.36.png" class="img-fluid rounded" alt="Description of the Milling Tasks">
+                    <p class="image-caption">Fig. 3: Description of the Milling Tasks</p>
+               
                 </div>
                 <div class="col-md-6 mb-3">
                     <img src="images/Screenshot 2025-02-28 at 18.31.32.png" class="img-fluid rounded" alt="Description of the Material Classes for chip removal processes">
+                    <p class="image-caption">Fig. 4: Description of the Material Classes for Chip Removal Processes</p>
+               
                 </div>
-                <div class="col-md-6 mb-3">
-                    <img src="images/Screenshot 2025-02-28 at 18.33.38.png" class="img-fluid rounded" alt="Description of the Cutting Tool Classes">
-                </div>
-                <div class="col-md-6 mb-3">
-                    <img src="images/Screenshot 2025-02-28 at 18.34.16.png" class="img-fluid rounded" alt="Other relevant Classes">
-                </div>
+              
             </div>
         </section>
 
 
+        
+
     <section id="repository" class="mt-4">
         <h2>Repository</h2>
-        <p>Link to the repository:</p>
-        <a class="btn btn-primary" href="https://github.com/BeatrizOlarte/MillingTools target="_blank">Milling Tools Repository</a>
+        <p>Link to the current ontology version:</p>
+        <a class="btn btn-primary" href="https://github.com/BeatrizOlarte/MillingTools/blob/main/kg4cut_v1.2.0.ttl"_blank">Milling Tools Repository</a>
+    </section>
+
+
+    <section id="references" class="mt-4">
+        <h2>References</h2>
+        <p>
+            <ul>
+                <li>Rehage, Gerald & Gausemeier, Jürgen. (2015). Ontology-based Determination of Alternative CNC Machines for a Flexible Resource Allocation. Procedia CIRP. 31. 10.1016/j.procir.2015.03.054. </i>    
+                    </li>
+                <li>Gangemi, Aldo & Presutti, Valentina. (2009). Ontology Design Patterns. 10.1007/978-3-540-92673-3_10. </i>   </li>
+                <li>Brickley, Dan. FOAF Vocabulary Specification. Version 0.97. January 1, 2010. http://xmlns.com/foaf/spec/20100101.html</li>
+                
+        </p>
+    </section>
+
+
+    <section id="cite" class="mt-4">
+        <h2>How to Cite Us</h2>
+ 
+        <p>If you use KG4CUT in your research or project, please cite us as follows:</p>
+        <pre>
+    @kg4cut{KG4CUT,
+        author = {Beatriz Olarte, Leonardo Piano and Giusy Salluzzi},
+        title = {KG4CUT: Knowledge Graph for Cutting Tools},
+        year = {2025},
+        url = {https://github.com/BeatrizOlarte/MillingTools/blob/main/kg4cut_v1.2.0.ttl}
+    }
+        </pre>
+
+        
+    </section>
+
+    <section id="support" class="mt-4 text-center">
+        <h2>Supported By: </h2>
+        <div class="d-flex justify-content-center align-items-center"></div>
+            <img src="images/LOGO-BLACK-NO-VECTORS.png" class="img-fluid mx-2" style="height: 100px;" alt="Logo 1">
+            <img src="images/Screenshot 2025-03-13 at 17.14.19.png" class="img-fluid mx-2" style="height: 100px;" alt="Logo 2">
+            <img src="images/Logo_lungo_RGB_d0.png" class="img-fluid mx-2" style="height: 100px;" alt="UNICA Logo">
+        </div>
     </section>
 
     </div>
