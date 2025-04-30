@@ -1,0 +1,6551 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2002/07/owl", "http://www.w3.org/ns/org", "http://www.w3.org/2000/01/rdf-schema", "http://www.semanticweb.org/olart/ontologies/2024/0/InVor", "http://www.ontologydesignpatterns.org/cp/owl/componency.owl", "http://www.ontologydesignpatterns.org/cp/owl/partof.owl", "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut", "http://www.w3.org/2001/XMLSchema", "http://xmlns.com/foaf/0.1" ],
+    "title" : {
+      "en" : "knowledge graph enabled for Cutting tool ontology (kg4cut)"
+    },
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "version" : "1.16.0",
+    "author" : [ "Leonardo Piano", "Beatriz Olarte", "Giuseppina Salluzzi" ],
+    "comments" : {
+      "en" : "kg4cut is a comprehensive framework for representing fundamental knowledge related to selecting cutting tools, particularly this first version for milling cutting tools. kg4cut is an application ontology that enables the mapping of information across different milling catalogues, enabling interoperability."
+    },
+    "other" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Beatriz Olarte",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Leonardo Piano",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Giuseppina Salluzzi",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "1.16.0",
+        "type" : "label"
+      }, {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "1.3.0",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "knowledge graph enabled for Cutting tool ontology (kg4cut)",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "89",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "92",
+    "type" : "owl:Class"
+  }, {
+    "id" : "94",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "96",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "108",
+    "type" : "owl:Class"
+  }, {
+    "id" : "125",
+    "type" : "owl:Class"
+  }, {
+    "id" : "127",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "132",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "140",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "143",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "146",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "149",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "152",
+    "type" : "owl:Class"
+  }, {
+    "id" : "153",
+    "type" : "owl:Class"
+  }, {
+    "id" : "155",
+    "type" : "owl:Class"
+  }, {
+    "id" : "156",
+    "type" : "owl:Class"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "164",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "98",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "168",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "170",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "105",
+    "type" : "owl:Class"
+  }, {
+    "id" : "173",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "177",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "179",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "182",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "185",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "106",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "194",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "196",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "198",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "201",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "204",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "207",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "210",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "212",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "187",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "215",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "217",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "220",
+    "type" : "owl:Class"
+  }, {
+    "id" : "221",
+    "type" : "owl:Class"
+  }, {
+    "id" : "209",
+    "type" : "owl:Class"
+  }, {
+    "id" : "222",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "227",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "229",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "191",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "232",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "234",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "237",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "239",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "243",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "246",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "248",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "100",
+    "type" : "owl:Class"
+  }, {
+    "id" : "241",
+    "type" : "owl:Class"
+  }, {
+    "id" : "245",
+    "type" : "owl:Class"
+  }, {
+    "id" : "252",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "255",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "258",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "262",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "264",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "267",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "192",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "269",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "273",
+    "type" : "owl:Class"
+  }, {
+    "id" : "275",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "115",
+    "type" : "owl:Class"
+  }, {
+    "id" : "145",
+    "type" : "owl:Class"
+  }, {
+    "id" : "283",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "282",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "285",
+    "type" : "owl:Class"
+  }, {
+    "id" : "287",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "289",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "286",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "292",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "148",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "309",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "266",
+    "type" : "owl:Class"
+  }, {
+    "id" : "311",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "251",
+    "type" : "owl:Class"
+  }, {
+    "id" : "254",
+    "type" : "owl:Class"
+  }, {
+    "id" : "257",
+    "type" : "owl:Class"
+  }, {
+    "id" : "328",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "327",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "261",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "331",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "337",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "334",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "103",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "154",
+    "type" : "owl:Class"
+  }, {
+    "id" : "223",
+    "type" : "owl:Class"
+  }, {
+    "id" : "349",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "93",
+    "type" : "owl:Class"
+  }, {
+    "id" : "352",
+    "type" : "owl:Class"
+  }, {
+    "id" : "353",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "354",
+    "type" : "owl:Class"
+  }, {
+    "id" : "355",
+    "type" : "owl:Class"
+  }, {
+    "id" : "356",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "357",
+    "type" : "owl:Class"
+  }, {
+    "id" : "176",
+    "type" : "owl:Class"
+  }, {
+    "id" : "360",
+    "type" : "owl:Class"
+  }, {
+    "id" : "361",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "359",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "364",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "381",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "121",
+    "type" : "owl:Class"
+  }, {
+    "id" : "390",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "389",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "394",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "399",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "398",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "404",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "403",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "408",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "172",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "340",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "184",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "274",
+    "type" : "owl:Class"
+  }, {
+    "id" : "113",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "316",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "424",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "49",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "117",
+    "type" : "owl:Class"
+  }, {
+    "id" : "336",
+    "type" : "owl:Class"
+  }, {
+    "id" : "439",
+    "type" : "owl:Class"
+  }, {
+    "id" : "344",
+    "type" : "owl:Class"
+  }, {
+    "id" : "166",
+    "type" : "owl:Class"
+  }, {
+    "id" : "181",
+    "type" : "owl:Class"
+  }, {
+    "id" : "383",
+    "type" : "owl:Class"
+  }, {
+    "id" : "326",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "350",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "271",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "322",
+    "type" : "owl:Class"
+  }, {
+    "id" : "416",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "122",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "142",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "438",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "348",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "449",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "308",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "461",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "296",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "419",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "488",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "490",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "139",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "442",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "225",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "481",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "374",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "189",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "471",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "290",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "303",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "219",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "301",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "420",
+    "type" : "owl:Class"
+  }, {
+    "id" : "421",
+    "type" : "owl:Class"
+  }, {
+    "id" : "200",
+    "type" : "owl:Class"
+  }, {
+    "id" : "203",
+    "type" : "owl:Class"
+  }, {
+    "id" : "206",
+    "type" : "owl:Class"
+  }, {
+    "id" : "175",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "511",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "513",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "515",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "517",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "519",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "422",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "124",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/HoleMilling",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HoleMilling"
+    },
+    "attributes" : [ "external" ],
+    "id" : "8",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "31",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "35",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/CuttingParameters",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CuttingParameters"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/H1TE4CH0200R005HAM-P0-SideMilling",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "H1TE4CH0200R005HAM-P0-SideMilling"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/H1TE4CH0200R005HAM-P1-SideMilling",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "H1TE4CH0200R005HAM-P1-SideMilling"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/H1TE4BN0200N002HAM-P0-Ramping0-15",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "H1TE4BN0200N002HAM-P0-Ramping0-15"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/H1TE4CH0200R005HAM-P0-SlotMilling",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "H1TE4CH0200R005HAM-P0-SlotMilling"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/H1TE4CH1000R015DLM-P0-Short-SlotMilling",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "H1TE4CH1000R015DLM-P0-Short-SlotMilling"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/Plura-Optimized-HDSteel-F5-D6-L57-P1-SideMilling",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "Plura-Optimized-HDSteel-F5-D6-L57-P1-SideMilling"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/Plura-Optimized-HDSteel-F5-D6-L57-P1-SlotMilling",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "Plura-Optimized-HDSteel-F5-D6-L57-P1-SlotMilling"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/C2MHAD0300",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "C2MHAD0300"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/H1TE4CH1000R015DLM-P0-Short-SideMilling",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "H1TE4CH1000R015DLM-P0-Short-SideMilling"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/F3AA0300AWSL45-3mm",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "F3AA0300AWSL45-3mm"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/H1TE4BN0200N002HAM-P0-HelicalInterpolation",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "H1TE4BN0200N002HAM-P0-HelicalInterpolation"
+      }
+    } ],
+    "comment" : {
+      "en" : "Set of parameters according to the standard ISO 13399 that define the cutting process in a machine tool. Example of some of them are: depth of cut, cutting diameter"
+    },
+    "attributes" : [ "external" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/P1",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "P1",
+      "en" : "Low Carbon Steels Short Chipping"
+    },
+    "attributes" : [ "external" ],
+    "id" : "36",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/P0",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "P0",
+      "en" : "Low Carbon Steels Long Chipping"
+    },
+    "attributes" : [ "external" ],
+    "id" : "38",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/RawGeometry",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RawGeometry"
+    },
+    "attributes" : [ "external" ],
+    "id" : "39",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/P3",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "P3",
+      "en" : "Alloy Steels And Tool Steels Low Hardness"
+    },
+    "attributes" : [ "external" ],
+    "id" : "41",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/P2",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "P2",
+      "en" : "Medium & High Carbon Steels"
+    },
+    "attributes" : [ "external" ],
+    "id" : "42",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/P5",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "P5",
+      "en" : "Ferritic Martensitic And PH Stainless Steels"
+    },
+    "attributes" : [ "external" ],
+    "id" : "43",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/WorkpieceGeometry",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WorkpieceGeometry"
+    },
+    "subClasses" : [ "44", "39" ],
+    "attributes" : [ "external" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/P4",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "P4",
+      "en" : "Alloy Steels And Tool Steels High Hardness"
+    },
+    "attributes" : [ "external" ],
+    "id" : "45",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/FaceMilling",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "FaceMilling"
+    },
+    "attributes" : [ "external" ],
+    "id" : "46",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor#Axis",
+    "equivalent" : [ "49" ],
+    "baseIri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "doi: 10.1016/j.procir.2015.03.054",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Axis"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "47",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/OpenSlot",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OpenSlot"
+    },
+    "attributes" : [ "external" ],
+    "id" : "50",
+    "superClasses" : [ "1", "51" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "58",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/Slot",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Slot"
+    },
+    "subClasses" : [ "63", "64", "50", "65", "66", "67", "68", "69" ],
+    "comment" : {
+      "en" : "Slots or grooves can be short or long, closed or open, straight or non-straight, deep or shallow, wide or narrow\nTool selection is normally determined by the width and depth of the groove and, to some extent, length\n\ninfo from https://www.sandvik.coromant.com/en-gb/knowledge/milling/groove-or-slot-milling"
+    },
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "44" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "72",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "78",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "83",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "89",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/N5",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "N5",
+      "en" : "Nylon Plastics Rubbers Phenolics Resins Fiberglass"
+    },
+    "attributes" : [ "external" ],
+    "id" : "92",
+    "superClasses" : [ "93" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/N4",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "N4",
+      "en" : "Copper Brass And Zinc Based"
+    },
+    "attributes" : [ "external" ],
+    "id" : "94",
+    "superClasses" : [ "93" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/N7",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "N7",
+      "en" : "MMC"
+    },
+    "attributes" : [ "external" ],
+    "id" : "95",
+    "superClasses" : [ "93" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/N6",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "N6",
+      "en" : "Carbon Graphite Composites CFRP"
+    },
+    "attributes" : [ "external" ],
+    "id" : "96",
+    "superClasses" : [ "93" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "101",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/MachinetoolManufacturer",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MachinetoolManufacturer"
+    },
+    "attributes" : [ "external" ],
+    "id" : "108",
+    "superClasses" : [ "106" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/Plane",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Plane"
+    },
+    "attributes" : [ "external" ],
+    "id" : "125",
+    "superClasses" : [ "44" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "127",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/Chamfered",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Chamfered"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/H1TE4CH0200R005HAM",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "H1TE4CH0200R005HAM"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "132",
+    "superClasses" : [ "87" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/PeckMilling",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PeckMilling"
+    },
+    "attributes" : [ "external" ],
+    "id" : "119",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/P6",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "P6",
+      "en" : "High Strength Ferritic Martensitic And PH Stainless Steels"
+    },
+    "attributes" : [ "external" ],
+    "id" : "140",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/NonLinearSlot",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NonLinearSlot"
+    },
+    "attributes" : [ "external" ],
+    "id" : "67",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "143",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "146",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "149",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "151",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor#RotationAxis",
+    "baseIri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RotationAxis"
+    },
+    "attributes" : [ "external" ],
+    "id" : "152"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/K2",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "K2",
+      "en" : "Low & Medium Strength Ductile Irons & CGI"
+    },
+    "attributes" : [ "external" ],
+    "id" : "153",
+    "superClasses" : [ "154" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/K1",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "K1",
+      "en" : "Grey Cast Iron"
+    },
+    "attributes" : [ "external" ],
+    "id" : "155",
+    "superClasses" : [ "154" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/K3",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "K3",
+      "en" : "High Strength Ductile Irons & ADI"
+    },
+    "attributes" : [ "external" ],
+    "id" : "156",
+    "superClasses" : [ "154" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "160",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "162",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "164",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "98",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "168",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "170",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/CuttingToolManufacturer",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CuttingToolManufacturer"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/Mitsubishi",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "Mitsubishi"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/Kennametal",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "Kennametal"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/Sandvik",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "Sandvik"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "105",
+    "superClasses" : [ "106" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "173",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "177",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "179",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "182",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "185",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/3DProfiling",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "3DProfiling"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/ProfileMilling",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "ProfileMilling"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "20",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.w3.org/ns/org#Organization",
+    "equivalent" : [ "192" ],
+    "baseIri" : "http://www.w3.org/ns/org",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Organization"
+    },
+    "subClasses" : [ "105", "108" ],
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "106"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "194",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "196",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "198",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "201",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "204",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "207",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "210",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "212",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "187",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "215",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "217",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/MillingTask",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 5,
+    "label" : {
+      "IRI-based" : "MillingTask"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/ShoulderMilling",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "ShoulderMilling"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/SlotSquareEnd",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "SlotSquareEnd"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/ShoulderSquareEnd",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "ShoulderSquareEnd"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/ProfileMilling",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "ProfileMilling"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/PocketPlungeMilling",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "PocketPlungeMilling"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/SlotBallNose",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "SlotBallNose"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/Drilling",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "Drilling"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/PocketHelical",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "PocketHelical"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/ConcaveRadiusMilling",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "ConcaveRadiusMilling"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/ShoulderBallNose",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "ShoulderBallNose"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/ShoulderRoughing",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "ShoulderRoughing"
+      }
+    } ],
+    "subClasses" : [ "5", "8", "20", "113", "115", "117", "119", "100", "103", "46", "51", "28", "80", "14", "85" ],
+    "attributes" : [ "external" ],
+    "id" : "9",
+    "superClasses" : [ "61" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/N1",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "N1",
+      "en" : "Wrought Aluminium"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/alluminiummaterial",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "alluminiummaterial"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "220",
+    "superClasses" : [ "93" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/N3",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "N3",
+      "en" : "High Silicon Aluminium Alloys And Magnesium Alloys"
+    },
+    "attributes" : [ "external" ],
+    "id" : "221",
+    "superClasses" : [ "93" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/N2",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "N2",
+      "en" : "Low Silicon Aluminium Alloys And Magnesium Alloys"
+    },
+    "attributes" : [ "external" ],
+    "id" : "209",
+    "superClasses" : [ "93" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/M3",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "M3",
+      "en" : "Duplex Stainless Steel"
+    },
+    "attributes" : [ "external" ],
+    "id" : "222",
+    "superClasses" : [ "223" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/Shoulder",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Shoulder"
+    },
+    "comment" : {
+      "undefined" : "Also called edging"
+    },
+    "attributes" : [ "external" ],
+    "id" : "71",
+    "superClasses" : [ "44" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/MillingTool",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MillingTool"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/C2MHAD0300",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "C2MHAD0300"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/2P120-0300-NC",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "2P120-0300-NC"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/F3AA0300AWSL45-3mm",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "F3AA0300AWSL45-3mm"
+      }
+    } ],
+    "subClasses" : [ "87", "91", "55" ],
+    "attributes" : [ "external" ],
+    "id" : "56",
+    "superClasses" : [ "121" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/MachiningTask",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MachiningTask"
+    },
+    "subClasses" : [ "60", "9" ],
+    "attributes" : [ "external" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "227",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "229",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "191",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "232",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "234",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "12",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "237",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "239",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "243",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "246",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "248",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/PocketMilling",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "PocketMilling"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/PocketHelical",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "PocketHelical"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "100",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/M2",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "M2",
+      "en" : "High Strength Austenitic Stainless And Cast Stainless Steel"
+    },
+    "attributes" : [ "external" ],
+    "id" : "241",
+    "superClasses" : [ "223" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/M1",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "M1",
+      "en" : "Austenitic Stainless Steel"
+    },
+    "attributes" : [ "external" ],
+    "id" : "245",
+    "superClasses" : [ "223" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "252",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "255",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "258",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "262",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "264",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "267",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Organization",
+    "equivalent" : [ "106" ],
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Organization"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "192"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "269",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/Finisher",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Finisher"
+    },
+    "attributes" : [ "external" ],
+    "id" : "273",
+    "superClasses" : [ "274" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "275",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/TrochoidalMilling",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "TrochoidalMilling",
+      "en" : "Trochoidal Milling"
+    },
+    "attributes" : [ "external" ],
+    "id" : "115",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/BallNose",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BallNose"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/H1TE4BN0200N002HAM",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "comment" : {
+        "undefined" : "Ball Nose Type"
+      },
+      "labels" : {
+        "IRI-based" : "H1TE4BN0200N002HAM"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "145",
+    "superClasses" : [ "87" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "283",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "282",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor#Magazine",
+    "baseIri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "doi: 10.1016/j.procir.2015.03.054",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Magazine"
+    },
+    "attributes" : [ "external" ],
+    "id" : "285",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "287",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/ToolHolder",
+    "equivalent" : [ "290" ],
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ToolHolder"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "289",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "286",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "292",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/SquareEnd",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SquareEnd",
+      "undefined" : "Flat End Mill"
+    },
+    "attributes" : [ "external" ],
+    "id" : "148",
+    "superClasses" : [ "87" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/3DProfile",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "3DProfile"
+    },
+    "attributes" : [ "external" ],
+    "id" : "19",
+    "superClasses" : [ "44" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "309",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor#NCFunction",
+    "baseIri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "doi: 10.1016/j.procir.2015.03.054",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NCFunction"
+    },
+    "attributes" : [ "external" ],
+    "id" : "266"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "311",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/Ramping",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Ramping",
+      "en" : "Ramping"
+    },
+    "subClasses" : [ "4", "7" ],
+    "attributes" : [ "external" ],
+    "id" : "5",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/HoleWithTolerance",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HoleWithTolerance"
+    },
+    "union" : [ "8", "117" ],
+    "comment" : {
+      "en" : "Considered as not long hole when depth is < ap"
+    },
+    "attributes" : [ "external", "union" ],
+    "id" : "30",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/Hole",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hole"
+    },
+    "subClasses" : [ "16", "22", "26", "30" ],
+    "attributes" : [ "external" ],
+    "id" : "17",
+    "superClasses" : [ "44" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/WideSlot",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WideSlot"
+    },
+    "attributes" : [ "external" ],
+    "id" : "69",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/H1",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "H1",
+      "en" : "Hardened Materials 44-48HRC"
+    },
+    "attributes" : [ "external" ],
+    "id" : "33",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/H3",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "H3",
+      "en" : "Hardened Materials 56-60HRC"
+    },
+    "attributes" : [ "external" ],
+    "id" : "251",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/H2",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "H2",
+      "en" : "Hardened Materials 48-55HRC"
+    },
+    "attributes" : [ "external" ],
+    "id" : "254",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/H4",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "H4",
+      "en" : "Hardened Materials HHRC more than 60"
+    },
+    "attributes" : [ "external" ],
+    "id" : "257",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "328",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "327",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "261",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "331",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/LongHoleWithTolerance",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LongHoleWithTolerance"
+    },
+    "comment" : {
+      "undefined" : "When length is  >ap"
+    },
+    "attributes" : [ "external" ],
+    "id" : "16",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "337",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "334",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/EndMilling",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EndMilling"
+    },
+    "attributes" : [ "external" ],
+    "id" : "103",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/H",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "H",
+      "en" : "Hardened Materials"
+    },
+    "subClasses" : [ "33", "251", "254", "257" ],
+    "comment" : {
+      "en" : "ISO material grouping Hardened Steels"
+    },
+    "attributes" : [ "external" ],
+    "id" : "34",
+    "superClasses" : [ "344" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/K",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "K",
+      "en" : "Cast Iron"
+    },
+    "subClasses" : [ "153", "155", "156" ],
+    "comment" : {
+      "en" : "ISO material grouping Cast Iron family"
+    },
+    "attributes" : [ "external" ],
+    "id" : "154",
+    "superClasses" : [ "344" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/M",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "M",
+      "en" : "Stainless Steel"
+    },
+    "subClasses" : [ "222", "241", "245" ],
+    "comment" : {
+      "en" : "ISO material grouping Stainless Steel"
+    },
+    "attributes" : [ "external" ],
+    "id" : "223",
+    "superClasses" : [ "344" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/C2",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "C2",
+      "en" : "Non-Ferrous"
+    },
+    "attributes" : [ "external" ],
+    "id" : "349",
+    "superClasses" : [ "350" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/ValidTool",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ValidTool"
+    },
+    "attributes" : [ "external" ],
+    "id" : "55",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/N",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "N",
+      "en" : "Nonferrous"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/alluminiummaterial",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "alluminiummaterial"
+      }
+    } ],
+    "subClasses" : [ "92", "94", "95", "96", "220", "221", "209" ],
+    "comment" : {
+      "undefined" : "ISO material grouping Non ferrous"
+    },
+    "attributes" : [ "external" ],
+    "id" : "93",
+    "superClasses" : [ "344" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/C1",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "C1",
+      "en" : "CFRP"
+    },
+    "attributes" : [ "external" ],
+    "id" : "352",
+    "superClasses" : [ "350" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "353",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/C4",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "C4",
+      "en" : "Stainless Steel"
+    },
+    "attributes" : [ "external" ],
+    "id" : "354",
+    "superClasses" : [ "350" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor#MachineTable",
+    "baseIri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "doi: 10.1016/j.procir.2015.03.054",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MachineTable"
+    },
+    "attributes" : [ "external" ],
+    "id" : "355",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/C3",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "C3",
+      "en" : "High-Temp"
+    },
+    "attributes" : [ "external" ],
+    "id" : "356",
+    "superClasses" : [ "350" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/P",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "P",
+      "undefined" : "Steel"
+    },
+    "subClasses" : [ "140", "36", "38", "41", "42", "43", "45" ],
+    "comment" : {
+      "en" : "ISO material grouping Steel"
+    },
+    "attributes" : [ "external" ],
+    "id" : "37",
+    "superClasses" : [ "344" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/Rougher",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Rougher"
+    },
+    "attributes" : [ "external" ],
+    "id" : "357",
+    "superClasses" : [ "274" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/S",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "S",
+      "en" : "Super Alloys"
+    },
+    "subClasses" : [ "200", "203", "206", "175" ],
+    "comment" : {
+      "undefined" : "ISO material grouping Super Alloys"
+    },
+    "attributes" : [ "external" ],
+    "id" : "176",
+    "superClasses" : [ "344" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/C5",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "C5",
+      "en" : "Non Ferrous / High Temp"
+    },
+    "attributes" : [ "external" ],
+    "id" : "360",
+    "superClasses" : [ "350" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "361",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "359",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "364",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "381",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/CuttingTool",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "en",
+        "value" : "Cutter",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CuttingTool",
+      "en" : "Tool"
+    },
+    "subClasses" : [ "56" ],
+    "comment" : {
+      "en" : "Metal-cutting tools are classified as single point or multiple point. A single-point cutting tool can be used for increasing the size of holes, or boring. Turning and boring are performed on lathes and boring mills. Multiple-point cutting tools have two or more cutting edges and include milling cutters, drills, and broaches from [https://www.britannica.com/technology/machine-tool#ref39138]"
+    },
+    "attributes" : [ "external" ],
+    "id" : "121",
+    "superClasses" : [ "383" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "390",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "389",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "394",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "399",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "398",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "404",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "403",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "408",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/Pocket",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pocket"
+    },
+    "subClasses" : [ "181", "184" ],
+    "attributes" : [ "external" ],
+    "id" : "172",
+    "superClasses" : [ "44" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/FinalGeometry",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FinalGeometry"
+    },
+    "subClasses" : [ "1", "19", "71", "166", "17", "125", "172" ],
+    "attributes" : [ "external" ],
+    "id" : "44",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/CircularRamping",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CircularRamping"
+    },
+    "attributes" : [ "external" ],
+    "id" : "7",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "340",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/PocketCreation",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PocketCreation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "184",
+    "superClasses" : [ "172" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/ChamferMilling",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "ChamferMilling"
+    },
+    "attributes" : [ "external" ],
+    "id" : "85",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/SolidEndTool",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SolidEndTool"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/H1TE4BN0200N002HAM",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "comment" : {
+        "undefined" : "Ball Nose Type"
+      },
+      "labels" : {
+        "IRI-based" : "H1TE4BN0200N002HAM"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/Plura-Optimized-HDSteel-F5-D6-L57",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "comment" : {
+        "undefined" : "CoroMill Plura solid carbide end mill for heavy duty milling"
+      },
+      "labels" : {
+        "IRI-based" : "Plura-Optimized-HDSteel-F5-D6-L57"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/C2MHAD0300",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "C2MHAD0300"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/2P120-0300-NC",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "2P120-0300-NC"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/F3AA0300AWSL45-3mm",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "F3AA0300AWSL45-3mm"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/H1TE4CH0200R005HAM",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "H1TE4CH0200R005HAM"
+      }
+    } ],
+    "subClasses" : [ "145", "148", "132", "416" ],
+    "attributes" : [ "external" ],
+    "id" : "87",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/DeepSlot",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DeepSlot"
+    },
+    "attributes" : [ "external" ],
+    "id" : "65",
+    "superClasses" : [ "1", "51" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/LinearRamping",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LinearRamping"
+    },
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/ToolType",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 3,
+    "label" : {
+      "IRI-based" : "ToolType"
+    },
+    "subClasses" : [ "322", "357", "273" ],
+    "attributes" : [ "external" ],
+    "id" : "274"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/CircularMilling",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CircularMilling"
+    },
+    "attributes" : [ "external" ],
+    "id" : "113",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/NarrowSlot",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NarrowSlot"
+    },
+    "attributes" : [ "external" ],
+    "id" : "68",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/MachineTool",
+    "equivalent" : [ "422" ],
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MachineTool"
+    },
+    "subClasses" : [ "420", "421" ],
+    "comment" : {
+      "en" : "Machine tool, any stationary power-driven machine that is used to shape or form parts made of metal or other materials. The shaping is accomplished in four general ways: (1) by cutting excess material in the form of chips from the part; (2) by shearing the material; (3) by squeezing metallic parts to the desired shape; and (4) by applying electricity, ultrasound, or corrosive chemicals to the material. The fourth category covers modern machine tools and processes for machining ultrahard metals not machinable by older methods [https://www.britannica.com/technology/machine-tool#ref39137]."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "316",
+    "superClasses" : [ "383" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/HoleWithoutTolerance",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HoleWithoutTolerance"
+    },
+    "attributes" : [ "external" ],
+    "id" : "26",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/ShallowSlot",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ShallowSlot"
+    },
+    "attributes" : [ "external" ],
+    "id" : "66",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "424",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/Axis",
+    "equivalent" : [ "47" ],
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Axis"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "49",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/BoringMilling",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BoringMilling"
+    },
+    "attributes" : [ "external" ],
+    "id" : "117",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor#Control",
+    "baseIri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "doi: 10.1016/j.procir.2015.03.054",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Control"
+    },
+    "attributes" : [ "external" ],
+    "id" : "336",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor#LinearAxis",
+    "baseIri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LinearAxis"
+    },
+    "attributes" : [ "external" ],
+    "id" : "439"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/ISOMaterialGroup",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ISOMaterialGroup"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/alluminiummaterial",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "alluminiummaterial"
+      }
+    } ],
+    "subClasses" : [ "34", "154", "223", "350", "93", "37", "176" ],
+    "attributes" : [ "external" ],
+    "id" : "344",
+    "superClasses" : [ "124" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/Chamfer",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Chamfer"
+    },
+    "attributes" : [ "external" ],
+    "id" : "166",
+    "superClasses" : [ "44" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/PocketWidening",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PocketWidening"
+    },
+    "attributes" : [ "external" ],
+    "id" : "181",
+    "superClasses" : [ "172" ]
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/componency.owl#Object",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/componency.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Object"
+    },
+    "subClasses" : [ "422", "316", "48", "121", "124" ],
+    "attributes" : [ "external" ],
+    "id" : "383"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/BallNoseSlotting",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BallNoseSlotting",
+      "en" : "Ball Nose Slot"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/SlotBallNose",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "SlotBallNose"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "326",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/PlungeMilling",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PlungeMilling",
+      "en" : "Plunge Milling"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/PocketPlungeMilling",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "PocketPlungeMilling"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "80",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/CFRPMaterials-C",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CFRPMaterials-C",
+      "en" : "CFRP Materials C"
+    },
+    "subClasses" : [ "349", "352", "354", "356", "360" ],
+    "attributes" : [ "external" ],
+    "id" : "350",
+    "superClasses" : [ "344" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/MachineToolComponents",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MachineToolComponents"
+    },
+    "subClasses" : [ "47", "271", "285", "355", "49", "289", "290", "336" ],
+    "attributes" : [ "external" ],
+    "id" : "48",
+    "superClasses" : [ "383" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor#MainDriver",
+    "baseIri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "doi: 10.1016/j.procir.2015.03.054",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MainDriver"
+    },
+    "attributes" : [ "external" ],
+    "id" : "271",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/HelicalInterpolation",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HelicalInterpolation",
+      "en" : "Helical Interpolation"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/PocketHelical",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "PocketHelical"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "28",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/Chamfering",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Chamfering"
+    },
+    "attributes" : [ "external" ],
+    "id" : "322",
+    "superClasses" : [ "274" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/Radiused",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Radiused"
+    },
+    "attributes" : [ "external" ],
+    "id" : "416",
+    "superClasses" : [ "87" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "53",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "122",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "142",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "438",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/SlotMilling",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "SlotMilling",
+      "en" : "Slot Milling"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/SlotSquareEnd",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "SlotSquareEnd"
+      }
+    } ],
+    "subClasses" : [ "326" ],
+    "attributes" : [ "external" ],
+    "id" : "14",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "348",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "449",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "308",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "461",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "296",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "419",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "488",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "490",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "139",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "442",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "225",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "481",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/DrillingTask",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DrillingTask"
+    },
+    "attributes" : [ "external" ],
+    "id" : "60",
+    "superClasses" : [ "61" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/ModularTool",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ModularTool"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/H1TE4CH1000R015DLM",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "H1TE4CH1000R015DLM"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "91",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/LongSlot",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LongSlot"
+    },
+    "attributes" : [ "external" ],
+    "id" : "64",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/BlindHole",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BlindHole"
+    },
+    "comment" : {
+      "en" : "A hole that doesn't pass completely through a part"
+    },
+    "attributes" : [ "external" ],
+    "id" : "22",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "374",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "189",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "471",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor#ToolHolder",
+    "equivalent" : [ "289" ],
+    "baseIri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "doi: 10.1016/j.procir.2015.03.054",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ToolHolder"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "290",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "303",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "219",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "158",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "301",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/3AxisMachineTool",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "3AxisMachineTool"
+    },
+    "attributes" : [ "external" ],
+    "id" : "420",
+    "superClasses" : [ "316" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/5AxisMachineTool",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "5AxisMachineTool"
+    },
+    "attributes" : [ "external" ],
+    "id" : "421",
+    "superClasses" : [ "316" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/S2",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "S2",
+      "en" : "Cobalt Based"
+    },
+    "attributes" : [ "external" ],
+    "id" : "200",
+    "superClasses" : [ "176" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/S1",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "S1",
+      "undefined" : "Iron Based"
+    },
+    "attributes" : [ "external" ],
+    "id" : "203",
+    "superClasses" : [ "176" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/S4",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "S4",
+      "en" : "Titanium & Titanium Alloys"
+    },
+    "attributes" : [ "external" ],
+    "id" : "206",
+    "superClasses" : [ "176" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/S3",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "S3",
+      "en" : "Nickel Based"
+    },
+    "attributes" : [ "external" ],
+    "id" : "175",
+    "superClasses" : [ "176" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/CloseSlot",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CloseSlot"
+    },
+    "attributes" : [ "external" ],
+    "id" : "63",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/SideMilling",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "en",
+        "value" : "Shoulder Milling",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SideMilling",
+      "en" : "Side Milling"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/ShoulderMilling",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "ShoulderMilling"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/ShoulderSquareEnd",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "ShoulderSquareEnd"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/ShoulderBallNose",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "ShoulderBallNose"
+      }
+    } ],
+    "subClasses" : [ "50", "65" ],
+    "attributes" : [ "external" ],
+    "id" : "51",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "511",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "513",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "515",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "517",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "519",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor#MachineTool",
+    "equivalent" : [ "316" ],
+    "baseIri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "doi: 10.1016/j.procir.2015.03.054",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MachineTool"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "422",
+    "superClasses" : [ "383" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/WorkpieceMaterial",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WorkpieceMaterial"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/alluminiummaterial",
+      "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+      "labels" : {
+        "IRI-based" : "alluminiummaterial"
+      }
+    } ],
+    "subClasses" : [ "344" ],
+    "attributes" : [ "external" ],
+    "id" : "124",
+    "superClasses" : [ "383" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "10",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "13",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "18",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "27",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "52",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "57",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "70",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "75",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "77",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "82",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "88",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "97",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "99",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "104",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "116",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "118",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "120",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "123",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "126",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "129",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "130",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "131",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "133",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "134",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "135",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "136",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "137",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "138",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "141",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "144",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "147",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "150",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "157",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "161",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "163",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "165",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "167",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "169",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "171",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "174",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "178",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "180",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "183",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "186",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "188",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "190",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "193",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "195",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "197",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "199",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "202",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "205",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "208",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "211",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "213",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "214",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "216",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "218",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "224",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "226",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "228",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "230",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "231",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "233",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "235",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "236",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "238",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "240",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "242",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "244",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "247",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "249",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "250",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "253",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "256",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "259",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "260",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "263",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "265",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "268",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "270",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "272",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "276",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "278",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "279",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "280",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "277",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "281",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "284",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "288",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "291",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "293",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "294",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "295",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "297",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "298",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "299",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "300",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "302",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "304",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "305",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "306",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "307",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "310",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "312",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "313",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "314",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "315",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "317",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "318",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "319",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "321",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "323",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "324",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "325",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "329",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "330",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "332",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "333",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "335",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "338",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "339",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "341",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "342",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "343",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "345",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "346",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "347",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "351",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "358",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "362",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "363",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "365",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "366",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "367",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "368",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "369",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "370",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "371",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "372",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "373",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "375",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "376",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "377",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "378",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "379",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "380",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "382",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "384",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "385",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "386",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "387",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "388",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "391",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "392",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "393",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "395",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "396",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "397",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "400",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "401",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "402",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "405",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "406",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "407",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "409",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "410",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "411",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "412",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "413",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "414",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "415",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "417",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "418",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "423",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "425",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "426",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "427",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "428",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "429",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "430",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "431",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "432",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "433",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "434",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "435",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "320",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "436",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "437",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "440",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "441",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "443",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "444",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "445",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "446",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "447",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "448",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "450",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "451",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "452",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "453",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "454",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "455",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "456",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "457",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "458",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "459",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "460",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "462",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "463",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "464",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "465",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "466",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "467",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "468",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "469",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "470",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "472",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "473",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "474",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "475",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "476",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "477",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "478",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "479",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "480",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "482",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "483",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "484",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "485",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "486",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "487",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "489",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "491",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "492",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "493",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "494",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "495",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "496",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "497",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "498",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "499",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "500",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "501",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "502",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "503",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "504",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "505",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "506",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "507",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "508",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "509",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "510",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "512",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "514",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "516",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "518",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "520",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "521",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/slotLength",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "slotLength"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "0"
+  }, {
+    "range" : "5",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "3"
+  }, {
+    "range" : "5",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasAxialDepthOfCut",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "hasAxialDepthOfCut"
+    },
+    "domain" : "11",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/machines",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "machines"
+    },
+    "domain" : "14",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "13"
+  }, {
+    "range" : "17",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/isPrimaryMachinedBy",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "isPrimaryMachinedBy"
+    },
+    "domain" : "19",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "18"
+  }, {
+    "range" : "17",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasInput",
+    "inverse" : "24",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasInput"
+    },
+    "domain" : "20",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "23"
+  }, {
+    "range" : "17",
+    "domain" : "26",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasInput",
+    "inverse" : "24",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "hasInput"
+    },
+    "domain" : "20",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "27"
+  }, {
+    "range" : "17",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "29"
+  }, {
+    "range" : "34",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "53",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "53",
+    "subproperty" : [ "24" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "52"
+  }, {
+    "range" : "56",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "54"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/slotWidth",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "58",
+    "label" : {
+      "IRI-based" : "slotWidth"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "57"
+  }, {
+    "range" : "61",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "59"
+  }, {
+    "range" : "61",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/shoulderDepth",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "72",
+    "label" : {
+      "IRI-based" : "shoulderDepth"
+    },
+    "domain" : "71",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "70"
+  }, {
+    "range" : "9",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "73"
+  }, {
+    "range" : "9",
+    "domain" : "51",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/machines",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "71",
+    "label" : {
+      "IRI-based" : "machines"
+    },
+    "domain" : "51",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "75"
+  }, {
+    "range" : "9",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "76"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/slotDepth",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "78",
+    "label" : {
+      "IRI-based" : "slotDepth"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "77"
+  }, {
+    "range" : "9",
+    "domain" : "80",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "79"
+  }, {
+    "range" : "9",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "81"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/slotRadius",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "83",
+    "label" : {
+      "IRI-based" : "slotRadius"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "82"
+  }, {
+    "range" : "9",
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "84"
+  }, {
+    "range" : "56",
+    "domain" : "87",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "86"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasCornerRadius",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "89",
+    "label" : {
+      "IRI-based" : "hasCornerRadius",
+      "undefined" : "Re"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "88"
+  }, {
+    "range" : "56",
+    "domain" : "91",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "90"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/holeDepth",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "98",
+    "label" : {
+      "IRI-based" : "holeDepth"
+    },
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "97"
+  }, {
+    "range" : "9",
+    "domain" : "100",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "99"
+  }, {
+    "range" : "9",
+    "domain" : "103",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "102"
+  }, {
+    "range" : "106",
+    "domain" : "105",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "104"
+  }, {
+    "range" : "106",
+    "domain" : "108",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "107"
+  }, {
+    "range" : "9",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "109"
+  }, {
+    "range" : "9",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "110"
+  }, {
+    "range" : "9",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "111"
+  }, {
+    "range" : "9",
+    "domain" : "113",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "112"
+  }, {
+    "range" : "9",
+    "domain" : "115",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "114"
+  }, {
+    "range" : "9",
+    "domain" : "117",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "116"
+  }, {
+    "range" : "9",
+    "domain" : "119",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "118"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasCuttingParameters",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "122",
+    "label" : {
+      "IRI-based" : "hasCuttingParameters"
+    },
+    "domain" : "121",
+    "attributes" : [ "external", "object" ],
+    "id" : "120"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/primaryMachines",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "124",
+    "label" : {
+      "IRI-based" : "primaryMachines"
+    },
+    "domain" : "121",
+    "attributes" : [ "external", "object" ],
+    "id" : "123"
+  }, {
+    "range" : "1",
+    "domain" : "69",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "126"
+  }, {
+    "range" : "40",
+    "domain" : "44",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "128"
+  }, {
+    "range" : "40",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "129"
+  }, {
+    "range" : "1",
+    "domain" : "63",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "130"
+  }, {
+    "range" : "1",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "131"
+  }, {
+    "range" : "1",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "133"
+  }, {
+    "range" : "1",
+    "domain" : "65",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "134"
+  }, {
+    "range" : "1",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "135"
+  }, {
+    "range" : "1",
+    "domain" : "67",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "136"
+  }, {
+    "range" : "1",
+    "domain" : "68",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "137"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/slotWidth",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "139",
+    "label" : {
+      "IRI-based" : "slotWidth"
+    },
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "138"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "142",
+    "label" : {
+      "IRI-based" : "topDataProperty"
+    },
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "141"
+  }, {
+    "range" : "87",
+    "domain" : "145",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "144"
+  }, {
+    "range" : "87",
+    "domain" : "148",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "147"
+  }, {
+    "range" : "87",
+    "domain" : "132",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "150"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/pocketRadius",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "158",
+    "label" : {
+      "IRI-based" : "pocketRadius"
+    },
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "157"
+  }, {
+    "range" : "44",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "159"
+  }, {
+    "range" : "44",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "161"
+  }, {
+    "range" : "44",
+    "domain" : "71",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "163"
+  }, {
+    "range" : "44",
+    "domain" : "166",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "165"
+  }, {
+    "range" : "44",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "167"
+  }, {
+    "range" : "44",
+    "domain" : "125",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "169"
+  }, {
+    "range" : "44",
+    "domain" : "172",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "171"
+  }, {
+    "range" : "176",
+    "domain" : "175",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "174"
+  }, {
+    "range" : "121",
+    "domain" : "56",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "178"
+  }, {
+    "range" : "172",
+    "domain" : "181",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "180"
+  }, {
+    "range" : "172",
+    "domain" : "184",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "183"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasMainMillingProcess",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "187",
+    "label" : {
+      "IRI-based" : "hasMainMillingProcess"
+    },
+    "domain" : "9",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "186"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/orderingNumber",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "189",
+    "label" : {
+      "IRI-based" : "orderingNumber"
+    },
+    "cardinality" : "1",
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "188"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasDepth",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "191",
+    "label" : {
+      "IRI-based" : "hasDepth"
+    },
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "190"
+  }, {
+    "range" : "37",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "193"
+  }, {
+    "range" : "37",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "195"
+  }, {
+    "range" : "37",
+    "domain" : "45",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "197"
+  }, {
+    "range" : "176",
+    "domain" : "200",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "199"
+  }, {
+    "range" : "176",
+    "domain" : "203",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "202"
+  }, {
+    "range" : "176",
+    "domain" : "206",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "205"
+  }, {
+    "range" : "93",
+    "domain" : "209",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "208"
+  }, {
+    "range" : "37",
+    "domain" : "140",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "211"
+  }, {
+    "range" : "37",
+    "domain" : "36",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "213"
+  }, {
+    "range" : "37",
+    "domain" : "38",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "214"
+  }, {
+    "range" : "37",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "216"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/pocketLength",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "219",
+    "label" : {
+      "IRI-based" : "pocketLength"
+    },
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "218"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/preferredMat",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "225",
+    "label" : {
+      "IRI-based" : "preferredMat"
+    },
+    "domain" : "56",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "224"
+  }, {
+    "range" : "93",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "226"
+  }, {
+    "range" : "93",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "228"
+  }, {
+    "range" : "93",
+    "domain" : "96",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "230"
+  }, {
+    "range" : "93",
+    "domain" : "220",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "231"
+  }, {
+    "range" : "93",
+    "domain" : "221",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "233"
+  }, {
+    "range" : "154",
+    "domain" : "155",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "235"
+  }, {
+    "range" : "154",
+    "domain" : "156",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "236"
+  }, {
+    "range" : "223",
+    "domain" : "222",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "238"
+  }, {
+    "range" : "223",
+    "domain" : "241",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "240"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/maxCuttingSpeed",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "146",
+    "label" : {
+      "IRI-based" : "maxCuttingSpeed"
+    },
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "242"
+  }, {
+    "range" : "223",
+    "domain" : "245",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "244"
+  }, {
+    "range" : "93",
+    "domain" : "92",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "247"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasNumberOfFlutes",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "198",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "ZEFP",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasNumberOfFlutes"
+    },
+    "cardinality" : "1",
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "249"
+  }, {
+    "range" : "34",
+    "domain" : "251",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "250"
+  }, {
+    "range" : "34",
+    "domain" : "254",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "253"
+  }, {
+    "range" : "34",
+    "domain" : "257",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "256"
+  }, {
+    "range" : "154",
+    "domain" : "153",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "259"
+  }, {
+    "iri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor#AxisSpeed",
+    "baseIri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor",
+    "range" : "261",
+    "label" : {
+      "IRI-based" : "AxisSpeed"
+    },
+    "domain" : "49",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "260"
+  }, {
+    "iri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor#MaxDegreeRotation",
+    "baseIri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor",
+    "range" : "262",
+    "label" : {
+      "IRI-based" : "MaxDegreeRotation"
+    },
+    "domain" : "152",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "263"
+  }, {
+    "iri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor#CoolingLubricant",
+    "baseIri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor",
+    "range" : "264",
+    "label" : {
+      "IRI-based" : "CoolingLubricant"
+    },
+    "domain" : "266",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "265"
+  }, {
+    "iri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor#MinDegreeRotation",
+    "baseIri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor",
+    "range" : "267",
+    "label" : {
+      "IRI-based" : "MinDegreeRotation"
+    },
+    "domain" : "152",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "268"
+  }, {
+    "iri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor#MaxTorsion",
+    "baseIri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor",
+    "range" : "269",
+    "label" : {
+      "IRI-based" : "MaxTorsion"
+    },
+    "domain" : "271",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "270"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasPreferredOperationType",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "122",
+    "label" : {
+      "IRI-based" : "hasPreferredOperationType"
+    },
+    "domain" : "121",
+    "attributes" : [ "external", "object" ],
+    "id" : "272"
+  }, {
+    "iri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor#has",
+    "equivalent" : [ "277" ],
+    "baseIri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor",
+    "range" : "53",
+    "label" : {
+      "IRI-based" : "has"
+    },
+    "domain" : "53",
+    "attributes" : [ "external", "object" ],
+    "id" : "276"
+  }, {
+    "iri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor#TransfMCS",
+    "baseIri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor",
+    "range" : "275",
+    "label" : {
+      "IRI-based" : "TransfMCS"
+    },
+    "domain" : "266",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "278"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasWorkingTime",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "164",
+    "label" : {
+      "IRI-based" : "hasWorkingTime"
+    },
+    "domain" : "48",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "279"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasMinCornerRadius",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "217",
+    "label" : {
+      "IRI-based" : "hasMinCornerRadius"
+    },
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "280"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/componency.owl#hasComponent",
+    "equivalent" : [ "276" ],
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/componency.owl",
+    "range" : "53",
+    "label" : {
+      "IRI-based" : "hasComponent"
+    },
+    "domain" : "53",
+    "attributes" : [ "external", "object" ],
+    "id" : "277"
+  }, {
+    "iri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor#MaxSpindleSpeed",
+    "baseIri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor",
+    "range" : "282",
+    "label" : {
+      "IRI-based" : "MaxSpindleSpeed"
+    },
+    "domain" : "271",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "281"
+  }, {
+    "iri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor#MagazineSize",
+    "baseIri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor",
+    "range" : "286",
+    "label" : {
+      "IRI-based" : "MagazineSize"
+    },
+    "domain" : "285",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "284"
+  }, {
+    "iri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor#MaxTorsion",
+    "baseIri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor",
+    "range" : "283",
+    "label" : {
+      "IRI-based" : "MaxTorsion"
+    },
+    "domain" : "271",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "288"
+  }, {
+    "iri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor#MagazineType",
+    "baseIri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor",
+    "range" : "292",
+    "label" : {
+      "IRI-based" : "MagazineType"
+    },
+    "domain" : "285",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "291"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/maxCuttingLength",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "143",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "LU",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "maxCuttingLength",
+      "undefined" : "L3"
+    },
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "293"
+  }, {
+    "iri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor#MaximalToolLength",
+    "baseIri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor",
+    "range" : "287",
+    "label" : {
+      "IRI-based" : "MaximalToolLength"
+    },
+    "domain" : "285",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "294"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/shoulderWidth",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "296",
+    "label" : {
+      "IRI-based" : "shoulderWidth"
+    },
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "295"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/isPrimaryMachinedBy",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "isPrimaryMachinedBy"
+    },
+    "domain" : "30",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "297"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/isPrimaryMachinedBy",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "isPrimaryMachinedBy"
+    },
+    "domain" : "16",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "298"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/isPrimaryMachinedBy",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "isPrimaryMachinedBy"
+    },
+    "domain" : "26",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "299"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/pocketWidth",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "301",
+    "label" : {
+      "IRI-based" : "pocketWidth"
+    },
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "300"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/pocketDepth",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "303",
+    "label" : {
+      "IRI-based" : "pocketDepth"
+    },
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "302"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/feedRate",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "255",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "fz",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "feedRate"
+    },
+    "domain" : "11",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "304"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasLength",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "212",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "LF",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasLength"
+    },
+    "cardinality" : "1",
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "305"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasAdapterDiameter",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "258",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "DCONms",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasAdapterDiameter"
+    },
+    "cardinality" : "1",
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "306"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/shoulderDepth",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "308",
+    "label" : {
+      "IRI-based" : "shoulderDepth"
+    },
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "307"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/holeDepth",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "309",
+    "label" : {
+      "IRI-based" : "holeDepth"
+    },
+    "domain" : "17",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "310"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/holeDiameter",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "311",
+    "label" : {
+      "IRI-based" : "holeDiameter"
+    },
+    "domain" : "17",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "312"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasCuttingParameters",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "hasCuttingParameters"
+    },
+    "domain" : "121",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "313"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/isMountedOnToolHolder",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "289",
+    "label" : {
+      "IRI-based" : "isMountedOnToolHolder"
+    },
+    "domain" : "121",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "314"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/isMountedOnMachineTool",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "316",
+    "label" : {
+      "IRI-based" : "isMountedOnMachineTool"
+    },
+    "domain" : "289",
+    "attributes" : [ "external", "object" ],
+    "id" : "315"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/performsTask",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "performsTask"
+    },
+    "domain" : "273",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "317"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/isPrimaryMachinedBy",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "isPrimaryMachinedBy"
+    },
+    "domain" : "65",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "318"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasCuttingToolManufacturer",
+    "inverse" : "320",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "105",
+    "label" : {
+      "IRI-based" : "hasCuttingToolManufacturer"
+    },
+    "domain" : "121",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "319"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/performsTask",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "performsTask"
+    },
+    "domain" : "322",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "321"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasWidthFlat",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "162",
+    "label" : {
+      "IRI-based" : "hasWidthFlat"
+    },
+    "cardinality" : "1",
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "323"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/isPrimaryMachinedBy",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "isPrimaryMachinedBy"
+    },
+    "domain" : "166",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "324"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/shoulderWidth",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "327",
+    "label" : {
+      "IRI-based" : "shoulderWidth"
+    },
+    "domain" : "326",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "325"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/isPrimaryMachinedBy",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "isPrimaryMachinedBy"
+    },
+    "domain" : "22",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "329"
+  }, {
+    "iri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor#AttachmentPoint",
+    "baseIri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor",
+    "range" : "331",
+    "label" : {
+      "IRI-based" : "AttachmentPoint"
+    },
+    "domain" : "49",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "330"
+  }, {
+    "iri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor#Orientation",
+    "baseIri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor",
+    "range" : "328",
+    "label" : {
+      "IRI-based" : "Orientation"
+    },
+    "domain" : "49",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "332"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/shankType",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "334",
+    "label" : {
+      "IRI-based" : "shankType"
+    },
+    "domain" : "56",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "333"
+  }, {
+    "range" : "48",
+    "domain" : "336",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "335"
+  }, {
+    "range" : "14",
+    "domain" : "326",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "338"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/prefToolType",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "340",
+    "label" : {
+      "IRI-based" : "prefToolType"
+    },
+    "domain" : "56",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "339"
+  }, {
+    "range" : "51",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "341"
+  }, {
+    "range" : "51",
+    "domain" : "65",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "342"
+  }, {
+    "range" : "124",
+    "domain" : "344",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "343"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasAxialDepthOfCut",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "337",
+    "label" : {
+      "IRI-based" : "hasAxialDepthOfCut"
+    },
+    "domain" : "56",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "345"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/performsProcess",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "122",
+    "label" : {
+      "IRI-based" : "performsProcess"
+    },
+    "domain" : "121",
+    "attributes" : [ "external", "object" ],
+    "id" : "346"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/startingCuttingSpeed",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "348",
+    "label" : {
+      "IRI-based" : "startingCuttingSpeed"
+    },
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "347"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/alternativeMachines",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "124",
+    "label" : {
+      "IRI-based" : "alternativeMachines"
+    },
+    "domain" : "56",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "351"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/maxRampAngleDegree",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "359",
+    "label" : {
+      "IRI-based" : "maxRampAngleDegree"
+    },
+    "domain" : "56",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "358"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/minRampAngleDegree",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "353",
+    "label" : {
+      "IRI-based" : "minRampAngleDegree"
+    },
+    "domain" : "56",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "362"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasCatalogueNumber",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "364",
+    "label" : {
+      "IRI-based" : "hasCatalogueNumber"
+    },
+    "domain" : "56",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "363"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/primaryMachines",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "124",
+    "label" : {
+      "IRI-based" : "primaryMachines"
+    },
+    "domain" : "56",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "365"
+  }, {
+    "range" : "350",
+    "domain" : "354",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "366"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasCornerRadius",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "361",
+    "label" : {
+      "IRI-based" : "hasCornerRadius",
+      "undefined" : "Re"
+    },
+    "domain" : "56",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "367"
+  }, {
+    "range" : "350",
+    "domain" : "356",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "368"
+  }, {
+    "range" : "350",
+    "domain" : "360",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "369"
+  }, {
+    "range" : "48",
+    "domain" : "47",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "370"
+  }, {
+    "range" : "48",
+    "domain" : "271",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "371"
+  }, {
+    "range" : "48",
+    "domain" : "285",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "372"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/optToolType",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "374",
+    "label" : {
+      "IRI-based" : "optToolType"
+    },
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "373"
+  }, {
+    "range" : "48",
+    "domain" : "355",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "375"
+  }, {
+    "range" : "48",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "376"
+  }, {
+    "range" : "48",
+    "domain" : "289",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "377"
+  }, {
+    "range" : "48",
+    "domain" : "290",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "378"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/holeDiameter",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "168",
+    "label" : {
+      "IRI-based" : "holeDiameter"
+    },
+    "domain" : "17",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "379"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/isInputFor",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "53",
+    "label" : {
+      "IRI-based" : "isInputFor"
+    },
+    "superproperty" : [ "52" ],
+    "domain" : "53",
+    "attributes" : [ "external", "object" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/optToolType",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "381",
+    "label" : {
+      "IRI-based" : "optToolType"
+    },
+    "domain" : "56",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "380"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasInput",
+    "inverse" : "24",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "hasInput"
+    },
+    "domain" : "9",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "382"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasOutput",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "hasOutput"
+    },
+    "domain" : "9",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "384"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/partof.owl#hasPart",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/partof.owl",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "hasPart"
+    },
+    "domain" : "316",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "385"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasInput",
+    "inverse" : "24",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "56",
+    "label" : {
+      "IRI-based" : "hasInput"
+    },
+    "domain" : "9",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "386"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasInput",
+    "inverse" : "24",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "hasInput"
+    },
+    "domain" : "9",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "387"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasDepth",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "389",
+    "label" : {
+      "IRI-based" : "hasDepth"
+    },
+    "domain" : "39",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "388"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/performsTask",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "performsTask"
+    },
+    "domain" : "357",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "391"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasCuttingToolManufacturer",
+    "inverse" : "320",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "105",
+    "label" : {
+      "IRI-based" : "hasCuttingToolManufacturer"
+    },
+    "domain" : "121",
+    "attributes" : [ "external", "object" ],
+    "id" : "392"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasLength",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "394",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "LF",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasLength"
+    },
+    "domain" : "39",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "393"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/maxRampAngleDegree",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "149",
+    "label" : {
+      "IRI-based" : "maxRampAngleDegree"
+    },
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "395"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasWidth",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "390",
+    "label" : {
+      "IRI-based" : "hasWidth"
+    },
+    "domain" : "39",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "396"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasCornerRadius",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "398",
+    "label" : {
+      "IRI-based" : "hasCornerRadius",
+      "undefined" : "Re"
+    },
+    "domain" : "172",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "397"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/machines",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "172",
+    "label" : {
+      "IRI-based" : "machines"
+    },
+    "domain" : "100",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "400"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/isPrimaryMachinedBy",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "127",
+    "label" : {
+      "IRI-based" : "isPrimaryMachinedBy"
+    },
+    "domain" : "40",
+    "attributes" : [ "external", "object" ],
+    "id" : "401"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/pocketDepth",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "403",
+    "label" : {
+      "IRI-based" : "pocketDepth"
+    },
+    "domain" : "172",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "402"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/performsOptionalProcess",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "122",
+    "label" : {
+      "IRI-based" : "performsOptionalProcess"
+    },
+    "domain" : "121",
+    "attributes" : [ "external", "object" ],
+    "id" : "405"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/pocketWidth",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "399",
+    "label" : {
+      "IRI-based" : "pocketWidth"
+    },
+    "domain" : "172",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "406"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/pocketLength",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "404",
+    "label" : {
+      "IRI-based" : "pocketLength"
+    },
+    "domain" : "172",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "407"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasInput",
+    "inverse" : "24",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "274",
+    "label" : {
+      "IRI-based" : "hasInput"
+    },
+    "domain" : "53",
+    "attributes" : [ "external", "object" ],
+    "id" : "409"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasMachinetoolComponent",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "hasMachinetoolComponent"
+    },
+    "domain" : "316",
+    "attributes" : [ "external", "object" ],
+    "id" : "410"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/cutterDiameter",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "35",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "DC",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "cutterDiameter"
+    },
+    "cardinality" : "1",
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "411"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/pocketRadius",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "408",
+    "label" : {
+      "IRI-based" : "pocketRadius"
+    },
+    "domain" : "172",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "412"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/performsProcess",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "performsProcess"
+    },
+    "domain" : "56",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "413"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/isPrimaryMachinedBy",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "isPrimaryMachinedBy"
+    },
+    "domain" : "125",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "414"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/isPrimaryMachinedBy",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "isPrimaryMachinedBy"
+    },
+    "domain" : "50",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "415"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasRecommendedCuttingSpeed",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "204",
+    "label" : {
+      "IRI-based" : "hasRecommendedCuttingSpeed"
+    },
+    "domain" : "11",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "417"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/slotDepth",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "419",
+    "label" : {
+      "IRI-based" : "slotDepth"
+    },
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "418"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasRadialDepthOfCut",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "201",
+    "label" : {
+      "IRI-based" : "hasRadialDepthOfCut"
+    },
+    "domain" : "11",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "423"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasWallHeight",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "185",
+    "label" : {
+      "IRI-based" : "hasWallHeight"
+    },
+    "domain" : "40",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "425"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/shoulderLength",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "424",
+    "label" : {
+      "IRI-based" : "shoulderLength"
+    },
+    "domain" : "71",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "426"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasDiameter",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "232",
+    "label" : {
+      "IRI-based" : "hasDiameter"
+    },
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "427"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasCornerRadius",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "101",
+    "label" : {
+      "IRI-based" : "hasCornerRadius",
+      "undefined" : "Re"
+    },
+    "domain" : "71",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "428"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasOptionalOperationType",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "274",
+    "label" : {
+      "IRI-based" : "hasOptionalOperationType"
+    },
+    "domain" : "121",
+    "attributes" : [ "external", "object" ],
+    "id" : "429"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasMinimumRadius",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "196",
+    "label" : {
+      "IRI-based" : "hasMinimumRadius"
+    },
+    "domain" : "40",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "430"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasMaximumCuttingSpeed",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "215",
+    "label" : {
+      "IRI-based" : "hasMaximumCuttingSpeed"
+    },
+    "domain" : "11",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "431"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/machines",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "124",
+    "label" : {
+      "IRI-based" : "machines"
+    },
+    "domain" : "121",
+    "attributes" : [ "external", "object" ],
+    "id" : "432"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/isMountedOnToolHolder",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "289",
+    "label" : {
+      "IRI-based" : "isMountedOnToolHolder"
+    },
+    "domain" : "121",
+    "attributes" : [ "external", "object" ],
+    "id" : "433"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasSpindleSpeed",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "177",
+    "label" : {
+      "IRI-based" : "hasSpindleSpeed"
+    },
+    "domain" : "48",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "434"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/cuttingDepth",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "252",
+    "label" : {
+      "IRI-based" : "cuttingDepth",
+      "undefined" : "ap"
+    },
+    "maxCardinality" : "1",
+    "domain" : "56",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "435"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/manufacturesCuttingTool",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "121",
+    "label" : {
+      "IRI-based" : "manufacturesCuttingTool"
+    },
+    "domain" : "105",
+    "attributes" : [ "external", "object" ],
+    "id" : "320"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasWidth",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "160",
+    "label" : {
+      "IRI-based" : "hasWidth"
+    },
+    "domain" : "40",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "436"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasCornerRadious",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "438",
+    "label" : {
+      "IRI-based" : "hasCornerRadious",
+      "undefined" : "Re"
+    },
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "437"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasCuttingLength",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "229",
+    "label" : {
+      "IRI-based" : "hasCuttingLength"
+    },
+    "cardinality" : "1",
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "440"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/prefToolType",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "442",
+    "label" : {
+      "IRI-based" : "prefToolType"
+    },
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "441"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasCataloguePage",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "246",
+    "label" : {
+      "IRI-based" : "hasCataloguePage"
+    },
+    "cardinality" : "1",
+    "domain" : "121",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "443"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/minCuttingSpeed",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "151",
+    "label" : {
+      "IRI-based" : "minCuttingSpeed"
+    },
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "444"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasUseOfCoolant",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "182",
+    "label" : {
+      "IRI-based" : "hasUseOfCoolant"
+    },
+    "cardinality" : "1",
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "445"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasAdapterReach",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "234",
+    "label" : {
+      "IRI-based" : "hasAdapterReach"
+    },
+    "cardinality" : "1",
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "446"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/performsTask",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "122",
+    "label" : {
+      "IRI-based" : "performsTask"
+    },
+    "domain" : "121",
+    "attributes" : [ "external", "object" ],
+    "id" : "447"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/shankType",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "449",
+    "label" : {
+      "IRI-based" : "shankType"
+    },
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "448"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/maxCuttingDepth",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "170",
+    "label" : {
+      "IRI-based" : "maxCuttingDepth",
+      "undefined" : "Ap1max"
+    },
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "450"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasSpindlePower",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "173",
+    "label" : {
+      "IRI-based" : "hasSpindlePower"
+    },
+    "domain" : "48",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "451"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasCoating",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "248",
+    "label" : {
+      "IRI-based" : "hasCoating"
+    },
+    "cardinality" : "1",
+    "domain" : "53",
+    "comment" : {
+      "undefined" : "for the coating we have a string with a code that tells us the material and thus of the compatible materials (there are also information on the wear)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "452"
+  }, {
+    "domain" : "357",
+    "range" : "357",
+    "id" : "453",
+    "label" : {
+      "IRI-based" : "190",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "14",
+    "range" : "1",
+    "id" : "454",
+    "label" : {
+      "IRI-based" : "191",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "274",
+    "range" : "273",
+    "id" : "455",
+    "label" : {
+      "IRI-based" : "192",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "274",
+    "range" : "357",
+    "id" : "456",
+    "label" : {
+      "IRI-based" : "193",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "274",
+    "range" : "322",
+    "id" : "457",
+    "label" : {
+      "IRI-based" : "194",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "115",
+    "range" : "115",
+    "id" : "458",
+    "label" : {
+      "IRI-based" : "195",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "5",
+    "range" : "5",
+    "id" : "459",
+    "label" : {
+      "IRI-based" : "189",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/shoulderLength",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "461",
+    "label" : {
+      "IRI-based" : "shoulderLength"
+    },
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "460"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasSpindleTorque",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "179",
+    "label" : {
+      "IRI-based" : "hasSpindleTorque"
+    },
+    "domain" : "48",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "462"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasFeedPerTooth",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "207",
+    "label" : {
+      "IRI-based" : "hasFeedPerTooth"
+    },
+    "domain" : "11",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "463"
+  }, {
+    "domain" : "322",
+    "range" : "322",
+    "id" : "464",
+    "label" : {
+      "IRI-based" : "180",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasMachineToolManufacturer",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "108",
+    "label" : {
+      "IRI-based" : "hasMachineToolManufacturer"
+    },
+    "domain" : "316",
+    "attributes" : [ "external", "object" ],
+    "id" : "465"
+  }, {
+    "domain" : "46",
+    "range" : "46",
+    "id" : "466",
+    "label" : {
+      "IRI-based" : "181",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "273",
+    "range" : "273",
+    "id" : "467",
+    "label" : {
+      "IRI-based" : "182",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "9",
+    "range" : "100",
+    "id" : "468",
+    "label" : {
+      "IRI-based" : "183",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "9",
+    "range" : "85",
+    "id" : "469",
+    "label" : {
+      "IRI-based" : "184",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/params",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "471",
+    "label" : {
+      "IRI-based" : "params"
+    },
+    "domain" : "11",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "470"
+  }, {
+    "domain" : "9",
+    "range" : "115",
+    "id" : "472",
+    "label" : {
+      "IRI-based" : "185",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "9",
+    "range" : "5",
+    "id" : "473",
+    "label" : {
+      "IRI-based" : "186",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "9",
+    "range" : "46",
+    "id" : "474",
+    "label" : {
+      "IRI-based" : "187",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "100",
+    "range" : "100",
+    "id" : "475",
+    "label" : {
+      "IRI-based" : "188",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "350",
+    "domain" : "352",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "476"
+  }, {
+    "domain" : "85",
+    "range" : "85",
+    "id" : "477",
+    "label" : {
+      "IRI-based" : "179",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/alternativeMachines",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "124",
+    "label" : {
+      "IRI-based" : "alternativeMachines"
+    },
+    "domain" : "121",
+    "attributes" : [ "external", "object" ],
+    "id" : "478"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasMinimumCuttingSpeed",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "194",
+    "label" : {
+      "IRI-based" : "hasMinimumCuttingSpeed"
+    },
+    "domain" : "11",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "479"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/radialDepth",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "481",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "ae",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "radialDepth",
+      "undefined" : "Radial Depth Cut"
+    },
+    "domain" : "11",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "480"
+  }, {
+    "range" : "344",
+    "domain" : "93",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "482"
+  }, {
+    "range" : "344",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "483"
+  }, {
+    "range" : "344",
+    "domain" : "176",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "484"
+  }, {
+    "range" : "383",
+    "domain" : "422",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "485"
+  }, {
+    "range" : "383",
+    "domain" : "316",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "486"
+  }, {
+    "range" : "383",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "487"
+  }, {
+    "range" : "383",
+    "domain" : "121",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "489"
+  }, {
+    "range" : "383",
+    "domain" : "124",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "491"
+  }, {
+    "range" : "350",
+    "domain" : "349",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "492"
+  }, {
+    "range" : "344",
+    "domain" : "223",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "493"
+  }, {
+    "range" : "344",
+    "domain" : "350",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "494"
+  }, {
+    "range" : "87",
+    "domain" : "416",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "495"
+  }, {
+    "range" : "274",
+    "domain" : "322",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "496"
+  }, {
+    "range" : "274",
+    "domain" : "357",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "497"
+  }, {
+    "range" : "274",
+    "domain" : "273",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "498"
+  }, {
+    "range" : "316",
+    "domain" : "420",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "499"
+  }, {
+    "range" : "316",
+    "domain" : "421",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "500"
+  }, {
+    "range" : "344",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "501"
+  }, {
+    "range" : "344",
+    "domain" : "154",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "502"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/altMat",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "altMat",
+      "undefined" : "alternative Material"
+    },
+    "domain" : "56",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "503"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasBCH",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "237",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "hasCornerChamferWidth",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasBCH"
+    },
+    "cardinality" : "1",
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "504"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasCornerRadius",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "227",
+    "label" : {
+      "IRI-based" : "hasCornerRadius",
+      "undefined" : "Re"
+    },
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "505"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasCatalogueNumber",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "243",
+    "label" : {
+      "IRI-based" : "hasCatalogueNumber"
+    },
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "506"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/slotLength",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "488",
+    "label" : {
+      "IRI-based" : "slotLength"
+    },
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "507"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasFluteHelixAngle",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "210",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "FHA",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasFluteHelixAngle"
+    },
+    "cardinality" : "1",
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "508"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasCSMSSystemSize",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "239",
+    "label" : {
+      "IRI-based" : "hasCSMSSystemSize"
+    },
+    "cardinality" : "1",
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "509"
+  }, {
+    "iri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor#MinPosMCS",
+    "baseIri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor",
+    "range" : "511",
+    "label" : {
+      "IRI-based" : "MinPosMCS"
+    },
+    "domain" : "439",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "510"
+  }, {
+    "iri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor#MaxWeight",
+    "baseIri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor",
+    "range" : "513",
+    "label" : {
+      "IRI-based" : "MaxWeight"
+    },
+    "domain" : "355",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "512"
+  }, {
+    "iri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor#XDimensions",
+    "baseIri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor",
+    "range" : "515",
+    "label" : {
+      "IRI-based" : "XDimensions"
+    },
+    "domain" : "355",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "514"
+  }, {
+    "iri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor#YDimensions",
+    "baseIri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor",
+    "range" : "517",
+    "label" : {
+      "IRI-based" : "YDimensions"
+    },
+    "domain" : "355",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "516"
+  }, {
+    "iri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor#MaxPosMCS",
+    "baseIri" : "http://www.semanticweb.org/olart/ontologies/2024/0/InVor",
+    "range" : "519",
+    "label" : {
+      "IRI-based" : "MaxPosMCS"
+    },
+    "domain" : "439",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "518"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/hasToolType",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "274",
+    "label" : {
+      "IRI-based" : "hasToolType"
+    },
+    "domain" : "121",
+    "attributes" : [ "external", "object" ],
+    "id" : "520"
+  }, {
+    "iri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut/slotRadius",
+    "baseIri" : "http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut",
+    "range" : "490",
+    "label" : {
+      "IRI-based" : "slotRadius"
+    },
+    "domain" : "53",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "521"
+  } ]
+}
