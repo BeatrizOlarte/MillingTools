@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://www.semanticweb.org/olart/ontologies/2024/0/InVor/1.0.0" uri="InVor_1.0.0.ttl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1746018913120" name="http://www.ontologydesignpatterns.org/cp/owl/componency.owl" uri="componency.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1746018913120" name="http://www.ontologydesignpatterns.org/cp/owl/partof.owl" uri="partof.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1746018913120" name="http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut" uri="missingLink/ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1746018913120" name="shadowed:http://www.semanticweb.org/pc/ontologies/2024/9/kg4cut" uri="myDocumentation-kg4cut/ontology.owl"/>
+    </group>
+</catalog>
